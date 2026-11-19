@@ -1,0 +1,38 @@
+:root {
+  --primary-100: hsl(316 43% 80%);
+  --primary-200: hsl(316, 43%, 71%);
+  --secondary-100: hsl(208 49% 80%);
+  --secondary-200: hsl(208 50% 66%);
+  --neutral-200: hsl(33 61% 81%);
+  --neutral-300: hsl(33 61% 71%);
+  --accent-200: hsl(174 55% 71%);
+  --accent-300: hsl(174 56% 49%);
+  --accent2-200: hsl(340 67% 87%);
+  --accent2-400: hsl(340 67% 62%);
+  --color-bg: hsl(171, 56%, 7%);
+}
+
+h1 {
+  color: var(--primary-100);
+}
+
+h2 {
+  color: var(--secondary-200);
+}
+
+h3 {
+  color: var(--accent-200);
+}
+h4 {
+  color: var(--accent-300);
+}
+body {
+  background-color: var(--color-bg);
+}
+a {
+  color: var(--accent2-200);
+}
+
+p {
+  color: var(--neutral-200);
+}
