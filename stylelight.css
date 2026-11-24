@@ -1,15 +1,13 @@
 :root {
-  --primary-500: hsl(316 43% 26%);
-  --primary-600: hsl(315 44% 21%);
-  --secondary-500: hsl(208 59% 23%);
-  --secondary-400: hsl(208 59% 33%);
-  --neutral-200: hsl(33 61% 81%);
-  --neutral-500: hsl(33 61% 49%);
-  --accent-500: hsl(175 56% 21%);
-  --accent-800: hsl(171 56% 7%);
-  --accent2-600: hsl(340 66% 30%);
-  --accent2-800: hsl(340 67% 13%);
-  --color-bg: hsl(35, 66%, 89%);
+  --primary-500: hsl(351 50% 22%);
+  --primary-600: hsl(351 50% 17%);
+  --secondary-500: hsl(188 51% 20%);
+  --secondary-600: hsl(188 51% 15%);
+  --neutral-200: hsl(20 63% 74%);
+  --neutral-600: hsl(20 64% 34%);
+  --accent-500: hsl(53 50% 42%);
+  --accent-700: hsl(53 50% 22%);
+  --color-bg: hsl(53, 50%, 72%);
 }
 
 h1 {
@@ -17,20 +15,20 @@ h1 {
 }
 
 h2 {
-  color: var(--secondary-400);
+  color: var(--secondary-600);
 }
 
 h3 {
-  color: var(--accent-500);
+  color: var(--secondary-600);
 }
 h4 {
-  color: var(--accent-800);
+  color: var(--accent-700);
 }
 body {
   background-color: var(--color-bg);
 }
 a {
-  color: var(--accent2-600);
+  color: var(--neutral-600);
 }
 
 p {
